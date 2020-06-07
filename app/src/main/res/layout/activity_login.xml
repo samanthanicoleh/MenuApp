@@ -1,0 +1,162 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/gradient_design"
+    android:backgroundTint="#B2B2B2"
+    tools:context=".LoginActivity">
+
+    <ImageView
+        android:id="@+id/ivDarkGrey"
+        android:layout_width="0dp"
+        android:layout_height="140dp"
+        android:background="@drawable/drawable_gradient3"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <Button
+        android:id="@+id/btnSignUpBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="184dp"
+        android:layout_marginEnd="20dp"
+        android:alpha="0.5"
+        android:backgroundTint="#C92D39"
+        android:fontFamily="@font/carme"
+        android:text="@string/sign_up"
+        android:textColor="#DADADA"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDarkGrey"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignInBtn"
+        app:layout_constraintHorizontal_bias="0.825"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="parent"
+        app:layout_constraintVertical_bias="1.0" />
+
+    <Button
+        android:id="@+id/btnSignInBtn"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginEnd="20dp"
+        android:alpha="0.5"
+        android:backgroundTint="#C92D39"
+        android:fontFamily="@font/carme"
+        android:text="@string/sign_in"
+        android:textColor="#DADADA"
+        app:layout_constraintBottom_toBottomOf="@+id/btnSignUpBtn"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSignUpBtn" />
+
+    <TextView
+        android:id="@+id/tvEmail"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="60dp"
+        android:fontFamily="@font/carme"
+        android:text="@string/email"
+        android:textColor="#C92D39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/ivLogo" />
+
+    <TextView
+        android:id="@+id/tvPassword"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginStart="30dp"
+        android:layout_marginTop="30dp"
+        android:fontFamily="@font/carme"
+        android:text="@string/password"
+        android:textColor="#C92D39"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etEmail" />
+
+    <EditText
+        android:id="@+id/etEmail"
+        android:layout_width="288dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:fontFamily="@font/carme"
+        android:inputType="textPersonName"
+        android:textColor="#000000"
+        android:textColorHint="#D81B60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvEmail"
+        app:layout_constraintTop_toBottomOf="@+id/tvEmail" />
+
+    <EditText
+        android:id="@+id/etPassword"
+        android:layout_width="283dp"
+        android:layout_height="50dp"
+        android:layout_marginTop="3dp"
+        android:ems="10"
+        android:fontFamily="@font/carme"
+        android:inputType="textPassword"
+        android:textColor="#000000"
+        android:textColorHint="#D81B60"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="@+id/tvPassword"
+        app:layout_constraintTop_toBottomOf="@+id/tvPassword" />
+
+    <ImageButton
+        android:id="@+id/btnLogin"
+        android:layout_width="65dp"
+        android:layout_height="32dp"
+        android:layout_marginTop="10dp"
+        android:backgroundTint="#B2B2B2"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.919"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/etPassword"
+        app:srcCompat="@drawable/arrow_right" />
+
+    <Button
+        android:id="@+id/btnNoLogin"
+        android:layout_width="0dp"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="30dp"
+        android:backgroundTint="#B2B2B2"
+        android:fontFamily="@font/carme"
+        android:text="@string/proceed_without_login"
+        android:textAllCaps="false"
+        android:textColor="#C92D39"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.0"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnLogin"
+        app:layout_constraintVertical_bias="0.0" />
+
+    <ImageView
+        android:id="@+id/ivLogo"
+        android:layout_width="101dp"
+        android:layout_height="97dp"
+        app:layout_constraintBottom_toBottomOf="@+id/ivDarkGrey"
+        app:layout_constraintEnd_toStartOf="@+id/btnSignUpBtn"
+        app:layout_constraintHorizontal_bias="0.28"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toTopOf="@+id/btnSignUpBtn"
+        app:layout_constraintVertical_bias="0.0"
+        app:srcCompat="@drawable/logo" />
+
+    <ImageButton
+        android:id="@+id/btnLangLogin"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:background="#00005381"
+        android:src="@drawable/icons8_google_translate_48"
+        android:text="Language"
+        app:layout_constraintBottom_toBottomOf="parent"
+        app:layout_constraintEnd_toEndOf="parent"
+        app:layout_constraintHorizontal_bias="0.9"
+        app:layout_constraintStart_toStartOf="parent"
+        app:layout_constraintTop_toBottomOf="@+id/btnNoLogin"
+        app:layout_constraintVertical_bias="0.6" />
+</androidx.constraintlayout.widget.ConstraintLayout>

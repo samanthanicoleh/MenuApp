@@ -1,0 +1,21 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    app:cnb_unselectedColor="#353535">
+
+    <item
+        android:id="@+id/menu_action"
+        android:icon="@drawable/icons8_restaurant_menu_48"
+        android:title="Menu"
+        app:cnb_iconColor="@color/menu" />
+    <item
+        android:id="@+id/orders_action"
+        android:icon="@drawable/icons8_purchase_order_48"
+        android:title="Orders"
+        app:cnb_iconColor="@color/sthsth" />
+    <item
+        android:id="@+id/signOut_action"
+        android:icon="@drawable/icons8_logout_rounded_down_48"
+        android:title="Sign Out"
+        app:cnb_iconColor="@color/signout" />
+</menu>

@@ -1,0 +1,77 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@drawable/drawable_gradient2"
+    tools:context=".FoodMenuFragment">
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="50dp"
+        android:fontFamily="@font/carme"
+        android:text="@string/menu_title"
+        android:textSize="30sp" />
+
+    <Button
+        android:id="@+id/mealsMenuBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="150dp"
+        android:background="@color/nudeOne"
+        android:text="@string/menu_meals_button"
+        app:layout_constraintTop_toBottomOf="@+id/textView" />
+
+    <Button
+        android:id="@+id/drinksMenuBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="250dp"
+        android:background="@color/nudeOne"
+        android:text="@string/menu_drinks_button"
+        app:layout_constraintTop_toBottomOf="@+id/mealsMenuBtn" />
+
+    <Button
+        android:id="@+id/dessertsMenuBtn"
+        android:layout_width="222dp"
+        android:layout_height="wrap_content"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="350dp"
+        android:background="@color/nudeOne"
+        android:text="@string/menu_desserts_button"
+        app:layout_constraintTop_toBottomOf="@+id/drinksMenuBtn" />
+
+    <LinearLayout
+        android:id="@+id/llFragmentFoodMenu"
+        android:layout_width="match_parent"
+        android:layout_height="50dp"
+        android:layout_alignParentBottom="true"
+        android:gravity="center"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            app:srcCompat="@drawable/icons8_user_48" />
+
+        <TextView
+            android:id="@+id/tvUser"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_alignParentBottom="true"
+            android:background="@color/transparent"
+            android:fontFamily="@font/carme"
+            android:text="Unknown User"
+            android:textColor="@color/orders"
+            android:textSize="20sp" />
+    </LinearLayout>
+</RelativeLayout>

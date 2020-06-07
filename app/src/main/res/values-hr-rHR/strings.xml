@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="background_image">background_image</string>
+
+    <!-- Menu Activity -->
+    <string name="menu_title">Menu</string>
+    <string name="menu_meals_button">Tipovi Jela</string>
+    <string name="menu_drinks_button">Cjenik Pića</string>
+    <string name="menu_desserts_button">Desert</string>
+
+    <!-- Menu Items Common Elements -->
+    <string name="loading_text">Učitavanje...</string>
+    <string name="no_results">Nema rezultata</string>
+    <string name="no_results_contact">Kontaktirajte nas za više informacije.</string>
+    <string name="filter_dropdown">Napredna pretraga:</string>
+    <string name="back">Nazad</string>
+    <string name="currency_notice">Sve transakcije se obavljaju u eurima. Pretvorba u kunama je tu samo za vašu referencu.</string>
+
+
+    <!-- Meal Activity -->
+    <string name="meals_menu">Tipovi Jela</string>
+    <string name="vegan">Vegansko</string>
+    <string name="vegetarian">Vegetariansko</string>
+    <string name="gluten_free">Bez Glutena</string>
+    <string name="chinese">Kinesko</string>
+    <string name="japanese">Japansko</string>
+    <string name="italian">Talijansko</string>
+    <string name="euro">Euro</string>
+    <string name="kuna">Kuna</string>
+    <string-array name="filter_dropdown">
+        <item>Vrsta hrane</item>
+        <item>Preferencija</item>
+        <item>Valuta</item>
+    </string-array>
+
+    <!-- Desserts Activity -->
+    <string name="desserts_menu">Desert Menu</string>
+    <string-array name="filter_dropdown_desserts">
+        <item>Preferencija</item>
+        <item>Valuta</item>
+    </string-array>
+
+    <!-- Drinks Activity -->
+    <string name="drinks_menu">Cjenik Pića</string>
+    <string name="wine">Vino</string>
+    <string name="beer">Pivo</string>
+    <string name="fizzy">Gazirano</string>
+    <string name="soft">Negazirano</string>
+    <string-array name="filter_dropdown_drinks">
+        <item>Vrsta Pića</item>
+        <item>Valuta</item>
+    </string-array>
+
+    <!-- Log in Activity -->
+    <string name="sign_up">Registracija</string>
+    <string name="sign_in">Prijava</string>
+    <string name="email">EMAIL</string>
+    <string name="password">LOZINKA</string>
+    <string name="proceed_without_login">Nastavi bez prijave</string>
+    <string name="full_name">PUNO IME</string>
+
+    <!-- Order Activity -->
+    <string name="order_title">Narudžba</string>
+
+    <!-- Order Dialog -->
+    <string name="order_dialog_message">Vaša narudžba je poslana!</string>
+
+    <!-- Meal Dialog -->
+    <string name="meal_dialog_title">Jelo</string>
+    <string name="meal_dialog_description">Odaberite porciju jela. Odabrana porcija biti će dodana na listu nardžbi.</string>
+    <string name="rb_medium">Medium Porcija</string>
+    <string name="rb_large">Large Porcija</string>
+    <string name="recommendation">Preporuka</string>
+
+    <!-- Order Fragment -->
+    <string name="discount">Popust</string>
+    <string name="place_order">Pošalji narudžbu</string>
+</resources>

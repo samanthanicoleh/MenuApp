@@ -1,0 +1,81 @@
+<resources>
+    <string name="app_name">MenuApp</string>
+    <string name="title_activity_menu">Menu</string>
+    <string name="tab_text_1">Tab 1</string>
+    <string name="tab_text_2">Tab 2</string>
+    <string name="background_image">background_image</string>
+
+    <!-- Menu Activity -->
+    <string name="menu_title">Menu</string>
+    <string name="menu_meals_button">Meals</string>
+    <string name="menu_drinks_button">Drinks</string>
+    <string name="menu_desserts_button">Desserts</string>
+
+    <!-- Menu Items Common Elements -->
+    <string name="loading_text">Loading...</string>
+    <string name="no_results">No results found</string>
+    <string name="no_results_contact">Contact us for more information.</string>
+    <string name="filter_dropdown">Advanced Search:</string>
+    <string name="back">Back</string>
+    <string name="currency_notice">All transactions are done in euros. The kuna conversion is just there for your reference.</string>
+
+
+    <!-- Meal Activity -->
+    <string name="meals_menu">Meals Menu</string>
+    <string name="vegan">Vegan</string>
+    <string name="vegetarian">Vegetarian</string>
+    <string name="gluten_free">Gluten Free</string>
+    <string name="chinese">Chinese</string>
+    <string name="japanese">Japanese</string>
+    <string name="italian">Italian</string>
+    <string name="euro">Euro</string>
+    <string name="kuna">Kuna</string>
+    <string-array name="filter_dropdown">
+        <item>Type of Food</item>
+        <item>Preference</item>
+        <item>Currency</item>
+    </string-array>
+
+    <!-- Desserts Activity -->
+    <string name="desserts_menu">Desserts Menu</string>
+    <string-array name="filter_dropdown_desserts">
+        <item>Preference</item>
+        <item>Currency</item>
+    </string-array>
+
+    <!-- Drinks Activity -->
+    <string name="drinks_menu">Drinks Menu</string>
+    <string name="wine">Wine</string>
+    <string name="beer">Beer</string>
+    <string name="fizzy">Fizzy Drinks</string>
+    <string name="soft">Soft Drinks</string>
+    <string-array name="filter_dropdown_drinks">
+        <item>Type of Drink</item>
+        <item>Currency</item>
+    </string-array>
+
+    <!-- Log in Activity -->
+    <string name="sign_up">Sign Up</string>
+    <string name="sign_in">Sign In</string>
+    <string name="email">EMAIL</string>
+    <string name="password">PASSWORD</string>
+    <string name="proceed_without_login">Proceed without login</string>
+    <string name="full_name">FULL NAME</string>
+
+    <!-- Order Activity -->
+    <string name="order_title">Order</string>
+
+    <!-- Order Dialog -->
+<string name="order_dialog_message">Your order has been ordered!</string>
+
+    <!-- Meal Dialog -->
+    <string name="meal_dialog_title">Meal</string>
+    <string name="meal_dialog_description">Please chose a portion size of the meal. Selected meal will be added to the order list.</string>
+    <string name="rb_medium">Medium Portion</string>
+    <string name="rb_large">Large Portion</string>
+    <string name="recommendation">Recommendation</string>
+
+    <!-- Order Fragment -->
+    <string name="discount">Get a Discount</string>
+    <string name="place_order">Place an order</string>
+</resources>

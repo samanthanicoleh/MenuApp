@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#5e5e5c</color>
+    <color name="colorPrimaryDark">#30302f</color>
+    <color name="colorAccent">#D81B60</color>
+
+    <color name="menu">#FFEB3B</color>
+    <color name="orders">#9300F5</color>
+    <color name="sthsth">#DE2E0B</color>
+    <color name="sth">#00A3FF</color>
+    <color name="signout">#0DFF23</color>
+
+    <color name="nudeOne">#FFF5B5</color>
+    <color name="nudeTwo">#D2B3F5</color>
+    <color name="nudeThree">#E0AA99</color>
+    <color name="nudeFour">#B3EEFF</color>
+    <color name="nudeFive">#9FFFA8</color>
+    <color name="transparent">#1D000000</color>
+</resources>
